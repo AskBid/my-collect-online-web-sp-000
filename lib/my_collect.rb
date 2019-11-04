@@ -4,9 +4,9 @@ def my_collect(array)
   i = 0
   collection = []
   while i < array.size
-    i += 1
-    binding.pry
+    #binding.pry
     collection << yield(array[i])
+    i += 1
   end
   collection
 end
