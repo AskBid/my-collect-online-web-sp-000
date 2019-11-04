@@ -11,4 +11,4 @@ def my_collect(array)
   collection
 end
 
-my_collect(['ruby', 'javascript', 'python', 'objective-c'])
+#my_collect(['ruby', 'javascript', 'python', 'objective-c'])
